@@ -145,22 +145,24 @@ if results is not None:
 
     with left:
 
-        st.subheader("🌡 Temperature Trend")
+        st.subheader("🌡 Zone Temperature Comparison")
 
         temp_df = pd.DataFrame({
-            "Time Step": range(len(metrics["baseline_temperatures"])),
-            "Baseline": metrics["baseline_temperatures"],
-            "Optimized": metrics["optimized_temperatures"]
+            "Zone": list(metrics["baseline_temperatures"].keys()),
+            "Baseline": list(metrics["baseline_temperatures"].values()),
+            "Optimized": list(metrics["optimized_temperatures"].values())
         })
 
-        fig = px.line(
+        fig = px.bar(
             temp_df,
-            x="Time Step",
+            x="Zone",
             y=["Baseline", "Optimized"],
+            barmode="group",
             labels={
                 "value": "Temperature (°C)",
                 "variable": "Scenario"
-            }
+            },
+            text_auto=".1f"
         )
 
         fig.update_layout(height=420)
@@ -250,11 +252,11 @@ if results is not None:
             "Optimized Energy",
             "Average Baseline Temperature",
             "Average Optimized Temperature",
-            "Energy Saving (%)"
+            "Energy Saving"
         ],
         "Value": [
-            metrics["baseline_energy"],
-            metrics["optimized_energy"],
+            f"{metrics['baseline_energy']:.0f} W",
+            f"{metrics['optimized_energy']:.0f} W",
             f"{metrics['baseline_average_temp']:.2f} °C",
             f"{metrics['optimized_average_temp']:.2f} °C",
             f"{metrics['energy_saving_percent']:.2f}%"
