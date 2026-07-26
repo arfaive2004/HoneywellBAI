@@ -1,0 +1,215 @@
+Shadowing Combinations
+..Solar Distribution=FullInteriorAndExterior
+..In the following, only the first 10 reference surfaces will be shown.
+..But all surfaces are used in the calculations.
+==================================
+Surface=ZN001:WALL001 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=0
+Number of back surfaces=6
+...Surface=ZN001:WALL002
+...Surface=ZN001:WALL003
+...Surface=ZN001:WALL004
+...Surface=ZN001:FLR001
+...Surface=ZN001:CEIL001
+...Surface=ZN001:WALL003:DOOR001
+Number of receiving sub surfaces=1
+....Surface=ZN001:WALL001:WIN001
+==================================
+Surface=ZN001:WALL001:WIN001 is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=ZN001:WALL002 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=ZN001:WALL003 is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=ZN001:WALL003:DOOR001 is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=ZN001:WALL004 is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=ZN001:FLR001 is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=ZN001:CEIL001 is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=ZN002:WALL001 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=2
+..Surface=ZN003:WALL003
+..Surface=ZN004:WALL005
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=ZN002:WALL002 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=ZN002:WALL003 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=ZN002:WALL004 is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=ZN002:WALL005 is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=ZN002:FLR001 is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=ZN002:CEIL001 is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=ZN003:WALL001 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=ZN003:WALL002 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=0
+Number of back surfaces=7
+...Surface=ZN003:WALL001
+...Surface=ZN003:WALL003
+...Surface=ZN003:WALL004
+...Surface=ZN003:WALL005
+...Surface=ZN003:FLR001
+...Surface=ZN003:CEIL001
+...Surface=ZN003:WALL004:DOOR001
+Number of receiving sub surfaces=1
+....Surface=ZN003:WALL002:WIN001
+==================================
+Surface=ZN003:WALL002:WIN001 is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=ZN003:WALL003 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=2
+..Surface=ZN002:WALL001
+..Surface=ZN004:WALL004
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=ZN003:WALL004 is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=ZN003:WALL004:DOOR001 is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=ZN003:WALL005 is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=ZN003:FLR001 is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=ZN003:CEIL001 is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=ZN004:WALL001 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=ZN004:WALL002 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=ZN004:WALL003 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=ZN004:WALL004 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=1
+..Surface=ZN004:WALL005
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=ZN004:WALL005 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=1
+..Surface=ZN004:WALL004
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=ZN004:WALL006 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=ZN004:WALL007 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=ZN004:WALL008 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=ZN004:FLR001 is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=ZN004:FLR002 is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=ZN004:FLR003 is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=ZN004:ROOF001 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=ZN004:ROOF002 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=ZN004:ROOF003 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0

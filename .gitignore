@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Environment
+.env
+.venv/
+venv/
+
+# IDE
+.vscode/
+.idea/
+
+# Streamlit
+.streamlit/
+
+# EnergyPlus Outputs
+baseline_output/
+optimized_output/
+optimization_*/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Python caches
+.pytest_cache/
+
+# Logs
+*.log

@@ -1,0 +1,16 @@
+ ReadVarsESO
+ processing:C:\Users\Abhyuday Rastogi\OneDrive\Desktop\building-ai\data\SmallOffice_modified.rvi
+ input file:eplusout.eso
+ output file:eplusout.csv
+ getting all vars from:eplusout.eso
+  number variables requested for output=         169
+ ReadVars Run Time=00hr 00min  1.08sec
+ ReadVarsESO program completed successfully.
+ ReadVarsESO
+ processing:C:\Users\Abhyuday Rastogi\OneDrive\Desktop\building-ai\data\SmallOffice_modified.mvi
+ input file:eplusout.mtr
+ output file:eplusmtr.csv
+ getting all vars from:eplusout.mtr
+  number variables requested for output=          12
+ ReadVars Run Time=00hr 00min  0.06sec
+ ReadVarsESO program completed successfully.
