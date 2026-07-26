@@ -151,7 +151,7 @@ The dashboard provides:
 ## 1. Clone the repository
 
 ```bash
-git clone https://github.com/<username>/<repository>.git
+git clone https://github.com/arfaive2004/HoneywellBAI.git
 cd building-ai
 ```
 
